@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chuck Norris Jokes</title>
+    <style>
+      .sect {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .search {
+        display: flex;
+        /* flex-direction: column; */
+      }
+    </style>
+  </head>
+  <body>
+    <section class="sect">
+      <form action="" class="search">
+        <div>
+          <label for="">Search Joke</label>
+          <input type="text" id="searchinput" />
+        </div>
+        <button id="search">Search</button>
+      </form>
+      <div>
+        <button id="randombtn">RANDOM</button>
+      </div>
+      <div>
+        <select name="" id="categories">
+          <option value="">Select</option>
+        </select>
+        <button id="categorybutton">By Category</button>
+      </div>
+
+      <div id="jokeArea"></div>
+    </section>
+    <script src="chuckNorris.js"></script>
+  </body>
+</html>
